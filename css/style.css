@@ -1,0 +1,24 @@
+body {    
+    position: relative;
+    padding-top: 50px;
+}
+.sidebar {
+    width: 200px;
+    left: 170px;
+}
+.sidebar.affix {
+    position: fixed;    
+    top: 70px;    
+}
+.sidebar.affix-top {
+    position: absolute;
+    top: 495px;
+}
+@media(max-width: 1280px) {
+    .sidebar {        
+        left: 50px;
+    }
+    .sidebar.affix-top {
+        top: 495px;
+    }
+}
