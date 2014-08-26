@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="utf-8">        
         <meta name="viewport" content="width=device-width, initial-scale=1">        
         <title>EIIFRO 2014 - I Encontro de Informática do Instituto Federal de Rondônia</title>    
-        <link href="js/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">                
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link href="css/style.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
+        <!--[if IE]>
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <![endif]-->
+        <!--[if lt IE 9]>          
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
@@ -26,7 +29,7 @@
                     <a class="navbar-brand" href="#">EIIFRO 2014</a>
                 </div>
                 <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav" role="tablist">
                         <li class="active"><a href="#home" role="tab" data-toggle="tab">Página Inicial</a></li>
                         <li><a href="#programacao" role="tab" data-toggle="tab">Programação</a></li>
                         <li><a href="#local" role="tab" data-toggle="tab">Local</a></li>
@@ -42,7 +45,7 @@
                         <p class="text-center"><i>De 03 a 05 Novembro de 2014</i></p>
                         <p class="text-center"><small>Integração, pesquisa, extensão e novas tendências de mercado. Tudo em um só lugar.</small></p>
                         <div class="col-lg-offset-4 col-lg-4">
-                            <a class="btn btn-lg btn-success btn-block" target="_blank" href="http://ti.ariquemes.ifro.edu.br/mercurio/event/register/1/">Inscreva-se agora!</a>
+                            <a class="btn btn-lg btn-success btn-block" target="_blank" href="http://mercurio.topolniak.com.br/event/register/1/">Inscreva-se agora!</a>
                         </div>                            
                     </div>
                 </div>
@@ -65,7 +68,7 @@
 
                             <div class="row">
                                 <div class="col-md-4">
-                                    <br><img class="img-responsive" src="images/event.jpg">
+                                    <br><img class="img-responsive" src="images/event.jpg" alt="Sobre o evento">
                                 </div>
                                 <div class="col-md-8">
                                     <h3>Sobre o evento</h3>
@@ -84,7 +87,7 @@
                                     <p>Se você deseja colaborar conosco ministrando qualquer atividade, por favor, <a target="_blank" href="https://docs.google.com/forms/d/1cnmTd772rQjFtdP57DKaHyyK-QYnKrNae42cs2Mx2js/viewform?usp=send_form">preencha este formulário</a> até dia <b>01 de Outubro de 2014</b>. Entraremos em contato posteriormente para confirmar sua participação e montar nossa grade de programação.</p>
                                 </div>
                                 <div class="col-md-4">
-                                    <br><img class="img-responsive" src="images/palestra.jpg">
+                                    <br><img class="img-responsive" src="images/palestra.jpg" alt="Palestras, mini-cursos e Mesas Redondas">
                                 </div>
                             </div>   
 
@@ -94,7 +97,7 @@
 
                             <div class="row">
                                 <div class="col-md-4">
-                                    <br><img class="img-responsive" src="images/exposicao.jpg">
+                                    <br><img class="img-responsive" src="images/exposicao.jpg" alt="Exposição e Publicações">
                                 </div>
                                 <div class="col-md-8">
                                     <h3>Exposição de Trabalhos e Publicações</h3>
@@ -151,17 +154,17 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <a href="#" class="thumbnail" data-toggle="modal" data-target="#mdCosplay">
-                                        <img class="img-responsive" src="images/cosplay.jpg">                                                                
+                                        <img class="img-responsive" src="images/cosplay.jpg" alt="Grupo de cosplay">                                                                
                                     </a>                            
                                 </div>
                                 <div class="col-md-4">
                                     <a href="#" class="thumbnail" data-toggle="modal" data-target="#mdJogos">
-                                        <img class="img-responsive" src="images/jogos.jpg">
+                                        <img class="img-responsive" src="images/jogos.jpg" alt="Jovens competindo">
                                     </a>
                                 </div>
                                 <div class="col-md-4">
                                     <a href="#" class="thumbnail" data-toggle="modal" data-target="#mdJedi">
-                                        <img class="img-responsive" src="images/jedi.jpg">
+                                        <img class="img-responsive" src="images/jedi.jpg" alt="Mestres Jedi">
                                     </a>
                                 </div>
                             </div>
@@ -173,8 +176,8 @@
                             <div class="row">                                                
                                 <div class="col-md-12">
                                     <h3>Inscrições</h3>
-                                    <p>As inscrições deve ser realizadas através <a target="_blank" href="http://ti.ariquemes.ifro.edu.br/mercurio/event/register/1/">deste link</a> e são gratuitas. Encorajamos todos os estudantes de Computação a participar, pois os dias de 03 a 05 de Novembro com certeza serão históricos no IFRO, quando se unirão por força acadêmica, para crescimento conjunto do saber e da ciência, cada Campus deste Instituto Federal de Rondônia. E você, vai ficar de fora desse momento memorável?</p>
-                                    <p>O que você está esperando? <a target="_blank" href="http://ti.ariquemes.ifro.edu.br/mercurio/event/register/1/">Faça agora mesmo sua inscrição!</a></p>
+                                    <p>As inscrições deve ser realizadas através <a target="_blank" href="http://mercurio.topolniak.com.br/event/register/1/">deste link</a> e são gratuitas. Encorajamos todos os estudantes de Computação a participar, pois os dias de 03 a 05 de Novembro com certeza serão históricos no IFRO, quando se unirão por força acadêmica, para crescimento conjunto do saber e da ciência, cada Campus deste Instituto Federal de Rondônia. E você, vai ficar de fora desse momento memorável?</p>
+                                    <p>O que você está esperando? <a target="_blank" href="http://mercurio.topolniak.com.br/event/register/1/">Faça agora mesmo sua inscrição!</a></p>
                                 </div>                        
                             </div> 
 
@@ -196,9 +199,9 @@
                                 <p>A cultura japonesa é extremamente forte na vida de qualquer adolescente moderno no nosso país. Apesar de o Cosplay não ser uma prática frequente neste Estado, os mangás e animes têm ocupado boa parte do tempo deles durante a semana. Portanto, nada mais justo que produzir uma festa "à fantasia" com caracterização dos personagens que mais marcaram suas vidas e com quem acabam se identificando e passam a amar por toda a vida.</p>
                                 <p>A escolha dos personagens é liberado, segundo o gosto de cada um. Não precisa vir caracterizado necessariamente de produção japonesa. Sinta-se livre para usar Cartoons, videogames, cantores, atores ou qualquer outro ícone pop.</p>
                                 <div class="row">
-                                    <div class="col-md-4"><img src="images/onepiece.jpg" class="img-responsive img-thumbnail img-circle"></div>
-                                    <div class="col-md-4"><img src="images/fairy.jpg" class="img-responsive img-thumbnail img-circle"></div>
-                                    <div class="col-md-4"><img src="images/chunli.jpg" class="img-responsive img-thumbnail img-circle"></div>
+                                    <div class="col-xs-4"><img src="images/onepiece.jpg" class="img-responsive img-thumbnail img-circle" alt="Cosplay de Fluffy"></div>
+                                    <div class="col-xs-4"><img src="images/fairy.jpg" class="img-responsive img-thumbnail img-circle" alt="Cosplay de Fairy Tale"></div>
+                                    <div class="col-xs-4"><img src="images/chunli.jpg" class="img-responsive img-thumbnail img-circle" alt="Cosplay de chun-li"></div>
                                 </div>                                
                                 <p>Contudo a competição será decida dentro de parâmetros bem definidos:</p>
                                 <ul>
@@ -208,9 +211,9 @@
                                 </ul>
                                 <p>Não se enganem, uma equipe de juízes experientes no assunto participarão da banca de avaliação e eles são extremamente rigorosos com a verossimilhança, então planejem bastante antes de entrar no palco.</p>                                
                                 <div class="row">
-                                    <div class="col-md-4"><img src="images/hinata.jpg" class="img-responsive img-thumbnail img-circle"></div>
-                                    <div class="col-md-4"><img src="images/kratos.jpg" class="img-responsive img-thumbnail img-circle"></div>
-                                    <div class="col-md-4"><img src="images/ironman.jpg" class="img-responsive img-thumbnail img-circle"></div>
+                                    <div class="col-xs-4"><img src="images/hinata.jpg" class="img-responsive img-thumbnail img-circle" alt="Cosplay de Hinata"></div>
+                                    <div class="col-xs-4"><img src="images/kratos.jpg" class="img-responsive img-thumbnail img-circle" alt="Cosplay de Kratos"></div>
+                                    <div class="col-xs-4"><img src="images/ironman.jpg" class="img-responsive img-thumbnail img-circle" alt="Cosplay de homem de ferro"></div>
                                 </div>
                             </div>
                             <div class="modal-footer">
@@ -228,7 +231,7 @@
                             </div>
                             <div class="modal-body">
                                 <p>Jogar videogame nos ultimos anos passou de hobby a profissao. Alem da ganho material, a pratica tambem tem vantagens no desenvolvimento cognitivo e motor dos usuarios. Adrenalina e endorfina sempre estao presentes nas sessoes de jogatina, que quando acompanhadas de bons amigos, seja no cooperativo ou no mmo, sempre resultam numa combinacao perfeita.</p>
-                                <p><img src="images/cs.jpg" class="img-responsive"></p>
+                                <p><img src="images/cs.jpg" class="img-responsive" alt="Counter-strike"></p>
                                 <p>O jogo? <b>Counter-Strike 1.6</b>. As regras sao as seguintes:</p>
                                 <ul>
                                     <li>Times com exatamente 5 integrantes</li>
@@ -266,7 +269,7 @@
                             <div class="modal-body">
                                 <blockquote>"Por mais de mil gerações, os Cavaleiros Jedi foram os guardiões da paz e justiça na Velha República. Antes da Era das Trevas. Antes do Império."<br>- Obi-Wan Kenobi</blockquote>
                                 <p>Todo Programador é em sua essência um Jedi. Dotado de habilidade e sabedoria, conduz em conjunto com a Força as mais diversas façanhas inimagináveis em prol de todo o universo, matendo o equilíbrio da vida e da ordem cósmica.</p>
-                                <p><img src="images/jediorder.jpg" class="img-responsive"></p>
+                                <p><img src="images/jediorder.jpg" class="img-responsive" alt="Simbolo Jedi"></p>
                                 <p>Tornar-se um Jedi requer o mais profundo comprometimento e uma mente astuta. A vida de um Jedi é feita de sacrifícios. Aqueles que mostraram aptidão para a Força foram trazidos para o IFRO a fim de treinar, onde a Ordem tem em cada campus um clã. Esse treinamento é inicialmente feito por Jedi experientes e veneráveis até que o indivíduo tenha proficiência suficiente para começar a jornada com um verdadeiro Jedi.</p>
                                 <p>O teste da Ordem Jedi consiste em uma avaliação prática dos conhecimentos adquiridos no decorrer da vida do Jedi. Por isso, esta avaliação será divida em níveis conforme a classe hierárquica:</p>                               
                                 <ul>
@@ -291,77 +294,9 @@
                     <div class="row">
                         <h1>I Encontro de Informática do Instituto Federal de Rondônia</h1>
                         <h2>Grade de Programação</h2>
-                        <div class="panel panel-info">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">03/11 - 1 Dia</h4>
-                            </div>
-                            <div class="panel-body">
-                                <table class="table table-bordered table-striped">
-                                    <thead>
-                                        <tr>
-                                            <th>Início</th>
-                                            <th>Fim</th>
-                                            <th>Atividades</th>
-                                            <th>Descrição</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td rowspan="2">08:00</td>
-                                            <td rowspan="2">09:30</td>
-                                            <td rowspan="2">Credenciamento</td>
-                                            <td>Confirmação de inscrições</td>                                            
-                                        </tr>
-                                        <tr>
-                                            <td>Entrega de pastas e crachás</td>
-                                        </tr>
-                                        <tr>
-                                            <td>09:30</td>
-                                            <td>10:30</td>
-                                            <td>Abertura - Palestra: "Novas tecnologias, novos desafios"</td>
-                                            <td>Palestra motivacional e informativa sobre as novas tendências tecnológicas e os novos desafios no atual mercado de trabalho. Ao final, apresentação da equipe organizadora e de apoio, além de reiterar toda a programação do evento e logística.</td>                                            
-                                        </tr>
-                                        <tr>
-                                            <td>10:30</td>
-                                            <td>12:00</td>
-                                            <td>Apresentação de Projetos e resultados de Pesquisa e Extensão</td>
-                                            <td>Cada Instituto terá a oportunidade de mostrar para os outros campi o que vem desenvolvendo, os resultados de suas ações junto à comunidade, projetos em andamento e aqueles que ainda virão. Os Institutos devem eleger um representante que fará toda a apresentação, podendo este elaborá-la livremente utilizando quaisquer tecnologias.</td>                                            
-                                        </tr>
-                                        <tr>
-                                            <td>12:00</td>
-                                            <td>13:30</td>
-                                            <td>Almoço</td>
-                                            <td>Com folga de 30 minutos para o início das atividades.</td>                                            
-                                        </tr>
-                                        <tr>
-                                            <td>14:00</td>
-                                            <td>18:30</td>
-                                            <td>Mini-cursos e Palestras</td>
-                                            <td>Aguardando contato com ministrantes. Divulgação detalhada no dia 03/10</td>                                            
-                                        </tr>
-                                        <tr>
-                                            <td>18:30</td>
-                                            <td>19:30</td>
-                                            <td>Jantar</td>
-                                            <td>Com folga de 30 minutos de preparação psicológica para a festa</td>                                            
-                                        </tr>
-                                        <tr>
-                                            <td rowspan="3">20:00</td>
-                                            <td rowspan="3">22:00</td>
-                                            <td rowspan="3">Festa</td>
-                                            <td>Banda ao vivo (a confirmar)</td>                                            
-                                        </tr>
-                                        <tr>
-                                            <td>Música à vontade</td>
-                                        </tr>
-                                        <tr>                                            
-                                            <td>Competição de Jogos</td>
-                                        </tr>                                        
-                                    </tbody>
-                                </table>
-                            </div>
+                        <div class="alert alert-info">                            
+                            <h4>03/11 - 1 Dia</h4>                            
                         </div>
-
                         <table class="table table-bordered table-striped">
                             <thead>
                                 <tr>
@@ -372,18 +307,197 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                <tr>
+                                    <td rowspan="2">08:00</td>
+                                    <td rowspan="2">09:30</td>
+                                    <td rowspan="2">Credenciamento</td>
+                                    <td>Confirmação de inscrições</td>                                            
+                                </tr>
+                                <tr>
+                                    <td>Entrega de pastas e crachás</td>
+                                </tr>
+                                <tr>
+                                    <td>09:30</td>
+                                    <td>10:30</td>
+                                    <td>Abertura - Palestra: "Novas tecnologias, novos desafios"</td>
+                                    <td>Palestra motivacional e informativa sobre as novas tendências tecnológicas e os novos desafios no atual mercado de trabalho. Ao final, apresentação da equipe organizadora e de apoio, além de reiterar toda a programação do evento e logística.</td>                                            
+                                </tr>
+                                <tr>
+                                    <td>10:30</td>
+                                    <td>12:00</td>
+                                    <td>Apresentação de Projetos e resultados de Pesquisa e Extensão</td>
+                                    <td>Cada Instituto terá a oportunidade de mostrar para os outros campi o que vem desenvolvendo, os resultados de suas ações junto à comunidade, projetos em andamento e aqueles que ainda virão. Os Institutos devem eleger um representante que fará toda a apresentação, podendo este elaborá-la livremente utilizando quaisquer tecnologias.</td>                                            
+                                </tr>
+                                <tr>
+                                    <td>12:00</td>
+                                    <td>13:30</td>
+                                    <td>Almoço</td>
+                                    <td>Com folga de 30 minutos para o início das atividades.</td>                                            
+                                </tr>
+                                <tr>
+                                    <td>14:00</td>
+                                    <td>18:30</td>
+                                    <td>Mini-cursos e Palestras</td>
+                                    <td>Aguardando contato com ministrantes. Divulgação detalhada no dia 03/10</td>                                            
+                                </tr>
+                                <tr>
+                                    <td>18:30</td>
+                                    <td>19:30</td>
+                                    <td>Jantar</td>
+                                    <td>Com folga de 30 minutos de preparação psicológica para a festa</td>                                            
+                                </tr>
+                                <tr>
+                                    <td rowspan="3">20:00</td>
+                                    <td rowspan="3">22:00</td>
+                                    <td rowspan="3">Festa</td>
+                                    <td>Banda ao vivo (a confirmar)</td>                                            
+                                </tr>
+                                <tr>
+                                    <td>Música à vontade</td>
+                                </tr>
+                                <tr>                                            
+                                    <td>Competição de Jogos</td>
+                                </tr>                                        
+                            </tbody>
+                        </table>                         
 
+                        <div class="alert alert-info">                            
+                            <h4>04/11 - 2 Dia</h4>                            
+                        </div>
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Início</th>
+                                    <th>Fim</th>
+                                    <th>Atividades</th>
+                                    <th>Descrição</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>07:00</td>
+                                    <td>08:00</td>
+                                    <td>Café da manhã</td>
+                                    <td></td>                                            
+                                </tr>
+                                <tr>
+                                    <td>08:00</td>
+                                    <td>12:00</td>
+                                    <td>Mini-cursos e Palestras</td>
+                                    <td>Aguardando contato com ministrantes. Divulgação detalhada no dia 03/10</td>                                            
+                                </tr>
+                                <tr>
+                                    <td>12:00</td>
+                                    <td>13:30</td>
+                                    <td>Almoço</td>
+                                    <td>Com folga de 30 minutos para o início das atividades.</td>                                            
+                                </tr>
+                                <tr>
+                                    <td>14:00</td>
+                                    <td>18:00</td>
+                                    <td>Mini-cursos e Mesas redondadas</td>
+                                    <td>Aguardando contato com ministrantes. Divulgação detalhada no dia 03/10</td>                                            
+                                </tr>
+                                <tr>
+                                    <td>18:30</td>
+                                    <td>19:30</td>
+                                    <td>Jantar</td>
+                                    <td></td>                                            
+                                </tr>
+                                <tr>
+                                    <td rowspan="3">19:30</td>
+                                    <td rowspan="3">22:00</td>
+                                    <td rowspan="3">Festa</td>
+                                    <td>Música à vontade</td>                                            
+                                </tr>
+                                <tr>
+                                    <td>Competição de Cosplay</td>
+                                </tr>
+                                <tr>                                            
+                                    <td>Competição de Jogos - Finais</td>
+                                </tr> 
+                            </tbody>
+                        </table>
+
+                        <div class="alert alert-info">                            
+                            <h4>05/11 - 3 Dia</h4>                            
+                        </div>
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Início</th>
+                                    <th>Fim</th>
+                                    <th>Atividades</th>
+                                    <th>Descrição</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>07:00</td> 
+                                    <td>08:00</td>
+                                    <td>Café da manhã</td>
+                                    <td></td>                                            
+                                </tr>
+                                <tr>
+                                    <td>08:00</td>
+                                    <td>12:00</td>
+                                    <td>Mini-cursos e Palestras</td>
+                                    <td>Aguardando contato com ministrantes. Divulgação detalhada no dia 03/10</td>                                            
+                                </tr>
+                                <tr>
+                                    <td>12:00</td>
+                                    <td>13:30</td>
+                                    <td>Almoço</td>
+                                    <td>Com folga de 30 minutos para o início das atividades.</td>                                            
+                                </tr>
+                                <tr>
+                                    <td>14:00</td>
+                                    <td>15:00</td>
+                                    <td>Exposição de trabalhos/banners</td>
+                                    <td></td>                                            
+                                </tr>
+                                <tr>
+                                    <td rowspan="2">15:00</td>
+                                    <td rowspan="2">18:00</td>
+                                    <td>Teste da Ordem Jedi</td>
+                                    <td></td>                                            
+                                </tr>
+                                <tr>
+                                    <td>Mesas redondas e Palestras</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>18:30</td>
+                                    <td>19:30</td>
+                                    <td>Jantar</td>
+                                    <td></td>                                            
+                                </tr>
+                                <tr>                                    
+                                    <td rowspan="2">20:00</td>
+                                    <td rowspan="2">21:00</td>
+                                    <td>Desfile Garota INFO</td>
+                                    <td></td>                                            
+                                </tr>                                
+                                <tr>
+                                    <td>Encerramento</td>
+                                    <td>
+                                </tr>                                
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
             <div class="tab-pane fade" id="local">
-                Local
+                <div class="container">
+                    <div class="row">&nbsp;</div>
+                    <div class="row text-center">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.813378961785!2d-62.962667999999965!3d-9.949479999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93cc9b219af07ca7%3A0xc2fea3b1afa94ee5!2sIFRO+-+Campus+Ariquemes!5e0!3m2!1spt-BR!2sbr!4v1408624189395" width="600" height="450" style="border:0"></iframe>
+                    </div>
+                </div>
             </div>
         </div>
-        <script src="js/libs/jquery/jquery-2.1.1.min.js"></script>
-        <script src="js/libs/bootstrap/js/bootstrap.min.js"></script>            
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         <script>
             $(function() {
                 $('#theLastRow').height(window.innerHeight - 250);
